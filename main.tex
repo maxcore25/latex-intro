@@ -1,0 +1,40 @@
+\documentclass[a4paper,14pt]{report}
+
+\usepackage{cmap} % PDF search
+\usepackage[T2A]{fontenc} % encoding
+\usepackage[utf8]{inputenc} % base text encoding
+\usepackage[english]{babel} % localization, line breaks
+
+\usepackage{hyperref} % clickable references
+
+\title{The LaTeX Basics}
+\author{maxcore25}
+\date{October 2022}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents{}
+\clearpage
+
+\chapter{Quick Start}
+
+\section{Introduction}
+This is the introduction to LaTeX Basics. Let's try it out! Click this ref -> \ref{example}
+
+\section{Basic Commands}
+\label{example}
+In this section we will learn some LaTeX commands.
+
+\textbf{Wow, that works!}
+
+\textit{This is an italic text}
+
+\begin{itemize}
+    \item item 1
+    \item item 2
+    \item item 3
+\end{itemize}
+
+\end{document}
